@@ -1,0 +1,44 @@
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 90%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to top right, red, blue);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.modal-box h3 {
+  color: #fff;
+  font-size: 35px;
+}
+
+.modal-box .input {
+  margin: 1.5rem 0;
+  width: 70%;
+}
+
+.input input[type="text"] {
+  border: none;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.input input[type="text"]:focus {
+  outline: none;
+}
